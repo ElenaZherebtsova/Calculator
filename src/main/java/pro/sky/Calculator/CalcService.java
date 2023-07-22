@@ -14,18 +14,15 @@ public class CalcService {
         return num1 + " + " + num2 + " = " + summ;
     }
 
-
     public String calcMinus(int num1, int num2) {
         int minus = num1 - num2;
         return num1 + " - " + num2 + " = " + minus;
     }
 
-
     public String calcMultiply(int num1, int num2) {
         int multiply = num1 * num2;
         return num1 + " * " + num2 + " = " + multiply;
     }
-
 
     public String calcDivide(int num1, int num2) {
         int divide = num1 / num2;
