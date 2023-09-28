@@ -33,7 +33,6 @@ public class HelloCalc {
         long multiply = helloService.calcMultiply(num1, num2);
         return num1 + " * " + num2 + " = " + multiply;
     }
-
     @GetMapping(path = "/calculator/divide")
     public String calcDivide(@RequestParam("num1") int num1,
                              @RequestParam("num2") int num2) {

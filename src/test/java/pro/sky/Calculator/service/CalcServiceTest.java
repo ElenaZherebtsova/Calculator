@@ -66,8 +66,6 @@ class CalcServiceTest {
         assertEquals(num1 * num2, result);
     }
 
-
-
     //    Проверка деления.
     @Test
     void calcDivide_shoudReturnPositiveNumWhenNum1AndNum2ArePositive() {

@@ -21,6 +21,7 @@ public class CalcService {
 
     public long calcMultiply(int num1, int num2) {
         return (long) num1 * num2;
+
     }
 
     public double calcDivide(int num1, int num2) {

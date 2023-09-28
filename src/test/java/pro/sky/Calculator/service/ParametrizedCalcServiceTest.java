@@ -44,7 +44,6 @@ class ParametrizedCalcServiceTest {
         System.out.println(result);
         assertEquals((double) num1 / num2, result);
     }
-
     private static Stream<Arguments> provideNums() {
         return Stream.of(
                 Arguments.of(4, 3),
